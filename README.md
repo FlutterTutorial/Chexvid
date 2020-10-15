@@ -15,15 +15,15 @@
 - **Sustainable** - The Website and Mobile App has been thoroughly tested and doesn't have any errors or bugs. The errors are reported immediately and handled by try catch blocks.
 
 # Mobile App<a name="Mobile"></a>
-- The mobile app has been fully tested without any errors. Here is a preview of it:
+The mobile app has been fully tested without any errors. Here is a preview of it:
 
 ![App](mobile.png)
 
 # Website<a name="Website"></a>
-- [Chexvid](https://chexvid.online) also has a website wherein you can upload your x-ray images to have them classified.
+[Chexvid](https://chexvid.online) also has a website wherein you can upload your x-ray images to have them classified.
 
 # Api<a name="Api"></a>
-- Send a Post request to https://chexvid.online/analyze with the following format:
+Send a Post request to https://chexvid.online/analyze with the following format:
 ```json
 {
   "image": "base64Image"
@@ -49,7 +49,7 @@
 - time: Time it took to predict in seconds
 
 # Clarifications<a name="Clarifications"></a>
-- I'm pretty sure that you will doubt that the model can achieve 100% accuracy. It was only able to maintain 100% accuracy on 250 validation images and other test images. I've trained it with 403 images per category (covid, pneumonia, and none). If I got more images of covid x-rays, it would be better since it will have a higher chance of maintaining 100% accuracy.
+I'm pretty sure that you will doubt that the model can achieve 100% accuracy. It was only able to maintain 100% accuracy on 250 validation images and other test images. I've trained it with 403 images per category (covid, pneumonia, and none). If I got more images of covid x-rays, it would be better since it will have a higher chance of maintaining 100% accuracy.
 
 **Last 3 training results:**
 
