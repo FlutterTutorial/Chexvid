@@ -15,7 +15,7 @@
 - **Sustainable** - The Website and Mobile App has been thoroughly tested and doesn't have any errors or bugs. The errors are reported immediately and handled by try catch blocks.
 
 # Mobile App<a name="Mobile"></a>
-- Our App is built using Flutter. It is Google’s UI toolkit android and ios apps from a single codebase. The app can be compiled and installed on your device. It has analytics and crashlytics enabled so that the app is sustainable. I've fully tested through the whole app and it works perfectly without any error.
+- The mobile app has been fully tested without any errors. Here is a preview of it:
 
 ![App](mobile.png)
 
